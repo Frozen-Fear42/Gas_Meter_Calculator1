@@ -1,0 +1,61 @@
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-section,
+.calc-section,
+.expense-section,
+.additional-section,
+.final-result-section,
+.exit-section {
+  margin-bottom: 20px;
+}
+
+.input-label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+.calc-button,
+.expense-button,
+.additional-button,
+.final-result-button,
+.exit-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.result-label,
+.final-result-label {
+  margin-bottom: 10px;
+}
+
+.exit-section {
+  text-align: center;
+}
+
+.exit-button {
+  background-color: #dc3545;
+}
